@@ -1,0 +1,127 @@
+
+
+<div class="ui grid">
+  <div class="row">
+    <div class="one wide column"></div>
+    <div class="three wide column"><img src="assests/images/logo1.png"></div>
+    <div class="eight wide column"></div>
+    <a class="ui image label">
+      <img src="assests/images/india.png">
+      India : +91 866-810-5005
+    </a>
+
+    
+  </div>
+  <div class="one wide column"></div>
+
+</div>
+</div>
+
+
+
+
+<div class="ui inverted menu">
+  <a class="active item">
+    {{link-to 'Home' 'index'}}
+  </a>
+  <div class="ui simple dropdown item">
+    <i class="dropdown icon"></i>{{ link-to 'About us''abouts.about'}}
+   {{!-- {{link-to 'About us' 'about'}}</li>
+   --}}
+   <div class="menu">
+    <div class="item" style="background: black">{{link-to  'What We Do''abouts.whatwedo'}}</div>
+    <div class="item" style="background: black">{{link-to  'Who We Serve''abouts.whoweserve' }}</div>
+    <div class="item" style="background: black"> {{link-to 'How we Do it''abouts.howwedoit'}} </div>
+  </div>
+</div>
+
+</a>
+<div class="ui simple dropdown item">
+  <i class="dropdown icon"></i>{{link-to 'Services' 'services.service'}}
+  <div class="menu">
+   <div class="item" style="background:black">{{link-to 'Our Approach' 'services.ourapproach'}}</div>
+ </div>
+</div>
+
+
+<a class="item">
+  {{link-to 'Careers' 'career'}}
+</a>
+<a class="item">
+  {{link-to 'Portfolio''portfolio'}}
+</a>
+<a class="item">
+  {{link-to 'Blog''blog'}}
+</a>
+<a class="item">
+  {{link-to 'Contact us''contactus'}}
+</a>
+</div>
+
+
+{{outlet}}
+
+
+<footer>
+
+  <div class="container">
+    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+
+      <div class="ftr-lnks">
+        <ul>
+          <li>{{link-to 'Home''index'}}&nbsp;&nbsp;|</li>
+          <li>{{link-to 'About us''abouts.about'}}&nbsp;&nbsp;|</li>
+          <li>{{link-to 'Services''services.service'}}&nbsp;&nbsp;|</li>
+          <li>{{link-to 'Portfolio''portfolio'}}&nbsp;&nbsp;|</li>
+          <li>{{link-to 'Blog''blog'}}&nbsp;&nbsp;|</li>
+          <li>{{link-to 'Contact us''contactus'}}</li>
+
+        </ul>
+
+      </div>
+
+      <div class="scl-icns">
+        <ul>
+          <li><a href="https://www.facebook.com/RailsonRocket"><img src="assests/images/fb.png"></a></li>
+          <li><a href="https://twitter.com/railsonrocket" target="_blank"><img src="assests/images/twtr.png"></a></li>
+          <li><a href="https://www.linkedin.com/profile/edit?trk=spm_pic" target="_blank"><img src="assests/images/lnkdn.png"></a></li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+
+      <div class="ftr-mail">
+        <span class="glyphicon glyphicon-envelope"></span>&nbsp;sales@railsonrocket.com
+      </div>
+
+      <div class="ftr-mail1">
+        <span class="glyphicon glyphicon-envelope"></span>&nbsp; 9 Saugarberry Dr,<br>&nbsp;Nashua, NH 03062<br>603-466-4493
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="ftr-cprgt-bg">
+        <div class="container">
+
+          <div class="cpyrght-txt">© 2014- 2018 Railsonrocket powered by <a href="http://www.inveera.com/" target="blank">Inveera Technology</a></div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</footer>

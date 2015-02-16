@@ -1,0 +1,1010 @@
+
+html {-webkit-font-smoothing: antialiased; }
+
+@font-face {
+    font-family:Fjalla One;
+    src:url(../css/my-fonts/FjallaOne-Regular.ttf);
+}
+
+
+body{ margin:0px;
+padding:0px;
+background:#fff;
+line-height:18px; 
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000;
+
+}
+
+.clear{clear:both;}
+
+
+header{padding-bottom:15px; border-bottom:1px solid #e8e8e8;}
+
+
+.logo
+{
+margin:10px 0 0 0px;
+}
+
+.top-right-part
+{
+margin:0px 0 0 80px;
+}
+
+.us-number{
+margin:30px 0 0 0px;
+float:left;}
+
+.us-number img{
+float:left;
+margin:2px 0 0 0px;
+}
+
+.us-text{
+float:left;
+font-family:Fjalla One;
+font-size:17px;
+margin-left:10px;}
+
+
+
+
+.india-number{
+margin:30px 0 0 20px;
+float:left;}
+
+.india-number img{
+float:left;
+margin:2px 0 0 0px;
+}
+
+.india-text{
+float:left;
+font-family:Fjalla One;
+font-size:17px;
+margin-left:10px;}
+
+.my-menu{float:right;}
+
+.menu-icon{width:45px; height:41px; margin-top:27px;}
+.menu-bg{background:#f06600; width:200px;
+position:absolute;
+right:16px;
+z-index:999999;
+display:none;}
+
+.menu-bg ul{margin:0px;
+padding:0px;}
+
+.menu-bg li{color:#fff; font-size:15px; list-style-type:none; border-bottom:1px solid #ff8327;}
+.menu-bg li a{color:#fff; text-decoration:none; display:block; padding:5px;}
+.menu-bg li a:hover{background:#ff8327;}
+
+.menu-bg li:last-child{border:none;}
+
+
+.banner{background:#0889cd; height:auto;}
+
+.tabs{margin:20px auto; text-align:center;}
+.tabs p{text-align:center;}
+.tabs ul{border-bottom:2px solid #0889cd; text-align:center; overflow:hidden; margin:20px auto;}
+.tabs h2{font-family:Fjalla One;
+font-size:23px;
+text-align:center;
+color:#000;}
+
+
+.how-work-bg{
+border-top:1px solid #d7d7d7;
+padding-bottom:30px;
+margin-top:10px;
+background: #fefefe; /* Old browsers */
+background: -moz-linear-gradient(top, #fefefe 0%, #efefef 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fefefe 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fefefe 0%,#efefef 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fefefe 0%,#efefef 100%); /* IE10+ */
+background: linear-gradient(to bottom, #fefefe 0%,#efefef 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */}
+
+.how-work-bg h2{font-family:Fjalla One;
+font-size:23px;
+text-align:center;
+color:#000;}
+
+.circles{margin:20px auto; text-align:center;}
+
+.circle{background:#02a4ca; border-radius:100%;
+margin-left:20px;
+vertical-align:top;
+display:inline-block;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.35);
+-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.35);
+box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.35); width:110px; height:110px;}
+
+.circles .green{background:#74a52e;}
+.circles .blue{background:#456cba;}
+.circles .red{background:#fc3c3c;}
+.circles .pink{background:#d24280;}
+
+
+.circle-text{color:#fff; width:73px; text-align:center; margin:0 auto; font-size:12px; line-height:16px; word-wrap: break-word; padding-top:20px;}
+
+
+.client-stsfcn-bg{
+background:url(../images/client-satisfctn-bg.jpg) repeat;
+margin-top:30px;
+padding-bottom:25px;}
+
+.client-stsfcn-bg h2{font-family:Fjalla One;
+font-size:23px;
+text-align:center;
+color:#000;
+padding:15px 0px;}
+
+
+.menu {padding:0; clear:both;}
+			.menu li {display:inline-block;}
+			.menu li a {background: #0889cd; padding: 5px 10px; margin-left:8px; float:left; border-right: 1px solid #ccf;
+			font-family:Fjalla One; border-bottom: none; text-decoration: none; color: #fff;}
+			.menu li.active a {background: #000000;}
+.tabs-img{margin:0 auto; text-align:center;}
+.tabs-img img{margin:0 auto;}
+
+
+
+/**/
+/* Global */
+
+
+/* Carousel Control */
+.control-box {
+    text-align: center;
+    width: 100%;
+	margin-top:15px;
+    }
+    .carousel-control{
+        background: #d7dddf !important;
+        border: 4px solid #498787 !important;
+        display: inline-block !important;
+        font-size: 34px !important;
+        font-weight: 200 !important;
+        line-height: 18px !important;
+        opacity: 0.6 !important;
+        padding: 0px 5px 0px !important;
+        position: static !important;
+        height: 34px !important;
+        width: 34px !important;
+		border-radius:100% !important;
+		margin:0 0 0 8px;
+		
+        }
+
+
+        p.right  { 
+            float: right; 
+            }
+			
+			
+.item p{color:#5a5a5a;
+font-size:15px;
+line-height:25px;
+text-align:center;}
+
+
+.item h3{color:#007dbf;
+font-size:18px;
+text-align:right;
+font-family:Fjalla One;}
+
+.clnt-stsfctn-part{
+margin:30px 0 0 0px;
+text-align:center;
+}
+
+.clnt-stsfctn-part h2{font-family:Fjalla One;
+font-size:23px;
+text-align:center;
+color:#000;}
+
+
+.clnt-stsfctn-part img{
+width:100%;
+margin:10px 0px;}
+
+
+
+footer{background:#141414; margin-top:10px;}
+
+.ftr-lnks{margin:0px;}
+
+.ftr-lnks ul{margin:15px 0px; padding:0px;}
+
+.ftr-lnks li:first-child{background:none;}
+.ftr-lnks li{display:inline-block; padding:0 10px; line-height:18px; background:url(../images/ftrli.jpg) no-repeat left; list-style-type:none; font-size:15px; color:#fff;}
+
+.ftr-lnks li a{color:#fff; text-decoration:none;}
+.ftr-lnks li a:hover{text-decoration:underline;}
+
+.scl-icns{margin:10px 0px; padding:0px;}
+.scl-icns ul{margin:25px 0px; padding:0px;}
+.scl-icns li{display:inline-block; padding:0 8px;}
+.scl-icns li a{display:inline-block;}
+
+.ftr-mail{text-align:right;
+color:#fff;
+font-size:14px; margin:20px 0 0 0px;}
+
+.ftr-mail1{text-align:right;
+color:#fff;
+font-size:14px; margin:10px 0px;}
+
+.ftr-cprgt-bg{background:#000;}
+
+.cpyrght-txt{color:#fff; font-size:13px; padding:7px 0px; text-align:center;}
+.cpyrght-txt a{color:#fff; text-decoration:none;}
+.cpyrght-txt a:hover{text-decoration:underline; color:#fff;}
+
+
+
+/*banner-start*/
+
+      .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+        	font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(../img/browser-icons.png);
+        }
+		
+		/*banner-end*/
+		
+		
+		
+/*About-us*/
+
+.about-us{
+margin:30px 0 0 0px;
+}
+
+.about-us h2{font-family:Fjalla One;
+font-size:23px;
+color:#000;}
+
+.about-us p{font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#6b6b6b;
+text-align:justify;
+line-height:21px;
+margin:0px;
+padding:8px 0px;}
+
+
+/*About-us*/
+
+
+/*services*/
+
+.services{
+margin:30px 0 0 0px;
+}
+
+.services h2{font-family:Fjalla One;
+font-size:23px;
+color:#000;}
+
+.srvcs-part{margin:20px 0 0 0px; background:#f5f5f5; padding:12px; border-radius:6px;
+border:1px solid #d8d8d8; text-align:center;}
+.srvcs-part img{margin:0 auto;}
+
+.srvcs-part h3{font-family:Fjalla One;
+font-size:19px; padding:12px 0px;
+margin:0px; color:#0889cd;}
+
+.services p{font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#6b6b6b;
+text-align:justify;
+line-height:21px;
+margin:0px;
+padding:0px 0px;}
+
+
+/*services*/
+
+
+/*career*/
+
+.career{
+margin:30px 0 0 0px;
+}
+
+.career h2{font-family:Fjalla One;
+font-size:23px;
+color:#000;}
+
+.career p{font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#6b6b6b;
+text-align:justify;
+line-height:21px;
+margin:0px;
+padding:0px 0 10px 0px;}
+
+.career-part{margin:10px 0 0 0px;}
+.career-part h3{font-family:Fjalla One;
+font-size:15px; padding:12px 0px;
+margin:0px; color:#0889cd;
+line-height:23px;}
+
+.career-part ul{
+margin:0px;
+padding:0px;}
+
+
+.career-part li{
+font-size:13px;
+list-style-type:none;
+color:#6b6b6b;
+padding-left:20px;
+line-height:22px;
+background:url(../images/arw.png) no-repeat 0 7px;}
+
+
+.career-img img{margin-left:15px;}
+
+/*career*/
+<<<<<<< .mine
+/*contact start by rajiv 10-09-14*/
+
+.formwrap{
+	 border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 20px;
+    width:80%;
+}
+
+.fieldwrap{
+	margin-bottom: 20px;
+    position: relative;	
+}
+
+.mandatory{
+	color:#F00;
+	margin: 0 0 0 8px;
+    position: absolute;
+}
+
+.txtbox{
+    border: 1px solid #dedede;
+    border-radius: 1px;
+    color: #100f0f;
+    font-size: 14px;
+    padding: 6px 14px;
+    width:100%;
+}
+
+.selectbox {
+    border: 1px solid #dedede;
+    border-radius: 1px;
+    color: #7e7d7d;
+    font-size: 14px;
+    padding: 6px 10px;
+    width:100%;
+}
+
+.textarea {
+    border: 1px solid #dedede;
+    border-radius: 1px;
+    color: #7e7d7d;
+    font-size: 14px;
+    min-height: 65px;
+    padding: 6px 14px;
+    width:100%;
+}
+
+.submit_button{
+	
+	
+}
+.sub_button{
+	 background-color: #0089d6;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: 130px;
+}
+
+.upper_name{
+	padding:0 0 5px 0;
+}
+
+.back-g{
+	background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+	padding: 10px 10px 10px 10px;
+   
+	
+}
+
+.fo_back{
+	 background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+   
+}
+
+.Quick_Contact{
+	color:#0089d6;
+    font-family: Fjalla One;
+    font-size: 23px;
+	 margin: 30px 0 0;
+}
+
+.India{
+	
+	
+	 font-family: Fjalla One;
+    font-size: 20px;
+}
+
+.company{
+	
+	 font-family: Fjalla One;
+    font-size: 16px;
+    color:#0089d6;
+	
+	
+}
+
+/*contact ent by rajiv 10-09-14*/
+
+
+
+
+
+=======
+
+
+/*portfolio*/
+
+.portfolio{
+margin:30px 0 0 0px;
+}
+
+.portfolio h2{font-family:Fjalla One;
+font-size:23px;
+color:#000;}
+
+.portfolio-part{
+margin:20px 0 0 0px;
+text-align:center;
+border:1px solid #d8d8d8;
+box-shadow:0 0 5px 0 rgba(50, 50, 50, 0.35);
+-webkit-box-shadow:0 0 5px 0 rgba(50, 50, 50, 0.35);}
+
+.portfolio-part img{
+margin:0 auto;
+width:272px;
+}
+
+.portfolio-head{
+font-size:20px; padding:8px 0px;
+margin:0px; color:#fff;
+line-height:23px;
+background:#0889cd;}
+
+
+.portfolio-dtl-part{
+margin:20px auto;
+text-align:center;
+border:1px solid #d8d8d8;
+overflow:hidden;
+width:60%;}
+
+.portfolio-txt-part{margin:10px 0px;}
+.portfolio-txt-part p{font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#6b6b6b;
+text-align:justify;
+line-height:22px;
+margin:0px;
+padding:10px 0 10px 0px;}
+
+.portfolio-txt-part ul{
+margin:0px;
+padding:0px;}
+
+
+.portfolio-txt-part li{
+font-size:13px;
+list-style-type:none;
+color:#6b6b6b;
+padding-left:20px;
+line-height:24px;
+background:url(../images/arw.png) no-repeat 0 7px;}
+
+/*portfolio*/
+
+
+/*contact-start*/
+
+.formwrap{
+  border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 20px;
+    width:80%;
+}
+
+.fieldwrap{
+ margin-bottom: 20px;
+    position: relative; 
+}
+
+.mandatory{
+ color:#F00;
+ margin: 0 0 0 8px;
+    position: absolute;
+}
+
+.txtbox{
+    border: 1px solid #dedede;
+    border-radius: 1px;
+    color: #100f0f;
+    font-size: 14px;
+    padding: 6px 14px;
+    width:100%;
+}
+
+.selectbox {
+    border: 1px solid #dedede;
+    border-radius: 1px;
+    color: #7e7d7d;
+    font-size: 14px;
+    padding: 6px 10px;
+    width:100%;
+}
+
+.textarea {
+    border: 1px solid #dedede;
+    border-radius: 1px;
+    color: #7e7d7d;
+    font-size: 14px;
+    min-height: 65px;
+    padding: 6px 14px;
+    width:100%;
+}
+
+.submit_button{
+ 
+ 
+}
+.sub_button{
+  background-color: #0089d6;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: 130px;
+}
+
+.upper_name{
+ padding:0 0 5px 0;
+}
+
+.back-g{
+ background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+ padding: 10px 10px 10px 10px;
+   
+ 
+}
+
+.fo_back{
+  background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+   
+}
+
+.Quick_Contact{
+ color:#0089d6;
+    font-family: Fjalla One;
+    font-size: 23px;
+  margin: 30px 0 0;
+}
+
+.India{
+ 
+ 
+  font-family: Fjalla One;
+    font-size: 20px;
+}
+
+.company{
+ 
+  font-family: Fjalla One;
+    font-size: 16px;
+    color:#0089d6;
+ 
+ 
+}
+
+/*contact-end*/
+
+
+
+/*blog*/
+
+.blog{
+margin:30px 0 0 0px;
+}
+
+.blog h2{font-family:Fjalla One;
+font-size:23px;
+color:#000;}
+
+.blog-prt{margin:0px 0 25px 0px;}
+
+.blog-lft-part{
+margin-top:15px;
+}
+
+.blog-img img{width:100%;}
+
+.blog-txt-part{margin:0px 0 0 15px;}
+.blog-txt-part h3{font-family:Fjalla One;
+font-size:20px; padding:0px 0px;
+margin:0px; color:#0889cd;
+line-height:23px;}
+
+.blog-txt-part p{font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#6b6b6b;
+text-align:justify;
+line-height:21px;
+margin:0px;
+padding:5px 0 10px 0px;}
+
+
+.bolg-cmnts-part{
+border-top:1px solid #a9a9a9;
+border-bottom:1px solid #a9a9a9;
+padding:5px;
+margin-top:10px;
+overflow:hidden;}
+
+.blog-post{
+color:#6b6b6b;
+float:left;
+font-size:12px;}
+
+.blog-cmnts{
+color:#f06600;
+float:right;
+font-size:12px;}
+
+
+.blog-right-part{
+margin:0px 0 0 15px;
+}
+
+
+.search-part{
+background:none repeat scroll 0 0 #f5f5f5;
+border:1px solid #d8d8d8;
+border-radius:3px;
+padding:15px;}
+
+.search-part h3{font-family:Fjalla One;
+font-size:18px; padding:0px 0px 15px 0px;
+margin:0px; color:#000;
+line-height:23px;
+text-align:center;}
+
+.search{text-align:center;}
+
+.search input{width:70%;
+margin:0px 0 10px 0px;
+border:1px solid #ccc;
+border-radius:4px;
+font-size:12px;
+padding:5px;}
+
+.srch-btn{
+background:#f06600;
+width:120px;
+height:27px;
+line-height:27px;
+color:#fff;
+font-size:15px;
+text-align:center;
+margin:0 auto;
+border-radius:4px;}
+
+
+.recent-post-part{
+background:none repeat scroll 0 0 #f5f5f5;
+border:1px solid #d8d8d8;
+border-radius:3px;
+padding:15px;
+margin:25px 0 0 0px;}
+
+.recent-post-part h3{font-family:Fjalla One;
+font-size:18px; padding:0px 0px 15px 0px;
+margin:0px; color:#000;
+line-height:23px;
+text-align:center;}
+
+.recent-post-part ul{
+margin:0px;
+padding:0px;}
+
+.recent-post-part li{
+font-size:13px;
+list-style-type:none;
+color:#6b6b6b;
+padding-left:20px;
+line-height:24px;
+background:url(../images/arw.png) no-repeat 0 7px;}
+
+
+.blog-detail{
+margin:30px 0 0 0px;
+}
+
+.blog-detail h2{font-family:Fjalla One;
+font-size:23px;
+color:#000;}
+
+.blog-detail-part{
+margin:20px auto;
+text-align:center;
+border:1px solid #d8d8d8;
+overflow:hidden;
+width:60%;}
+
+.blog-detail-part img{
+width:100%;}
+
+.blog-detail-txt-part{margin:10px 0px;}
+.blog-detail-txt-part p{font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#6b6b6b;
+text-align:justify;
+line-height:22px;
+margin:0px;
+padding:10px 0 10px 0px;}
+
+
+/*blog-end*/
+
+>>>>>>> .r32
+		
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+			
+			
+	/*contact start by rajiv 10-09-14*/		
+			
+.formwrap {
+    width: 100%;
+}
+				
+	/*contact end by rajiv 10-09-14*/		
+			
+			
+			
+.top-right-part {
+    margin: 0 0 0 0px;
+}			
+			
+			
+.banner {
+    height:auto;
+}
+
+.ftr-lnks{text-align:center; margin:0 auto;}
+.scl-icns{text-align:center; margin:0 auto;}
+.ftr-mail{text-align:center;}
+.ftr-mail1{text-align:center;}
+
+.tabs-img img {
+	width:100%;
+}
+
+.career-img img{width:280px;}
+
+.portfolio-dtl-part{
+width:100%;}
+
+.formwrap{
+width:100%;
+}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+			
+	/*contact start by rajiv 10-09-14*/		
+			
+.formwrap {
+    width: 100%;
+}
+				
+	/*contact end by rajiv 10-09-14*/		
+		
+
+
+.logo {
+    margin:10px auto;
+    text-align: center;
+}
+
+
+.india-number {
+    float: left;
+    margin: 10px 0 0 0px;
+}
+
+.menu-icon {
+    margin-top: 0px;
+}
+
+
+.top-right-part {
+    margin: 0 0 0 0px;
+}			
+			
+			
+.banner {
+    height:auto;
+}
+
+.ftr-lnks{text-align:center; margin:0 auto;}
+.scl-icns{text-align:center; margin:0 auto;}
+.ftr-mail{text-align:center;}
+.ftr-mail1{text-align:center;}
+	
+	.tabs-img img {
+	width:100%;
+}
+
+.menu li a {padding: 5px 6px; margin-left:6px;}
+
+.menu li {display:inline;}
+
+.career-img img{width:400px;}
+
+.portfolio-dtl-part{
+width:100%;}
+
+.formwrap{
+width:100%;
+}
+
+.blog-txt-part{margin:20px 0 0 0px;}
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	
+				
+	/*contact start by rajiv 10-09-14*/		
+			
+.formwrap {
+    width: 100%;
+}
+				
+	/*contact end by rajiv 10-09-14*/		
+		
+	
+.logo {
+    margin:10px auto;
+    text-align: center;
+}
+
+
+.us-number {
+    float: left;
+    margin: 10px 0 0;
+}
+
+.us-text {
+	font-size:13px;
+}
+
+.india-number {
+    float: left;
+    margin: 10px 0 0 0px;
+}
+
+.menu-icon {
+    margin-top: 0px;
+}
+
+
+.top-right-part {
+    margin: 0 0 0 0px;
+}			
+			
+			
+.banner {
+    height:auto;
+}
+
+.ftr-lnks{text-align:center; margin:0 auto;}
+.scl-icns{text-align:center; margin:0 auto;}
+.ftr-mail{text-align:center;}
+.ftr-mail1{text-align:center;}	
+
+.tabs-img img {
+	width:100%;
+}
+
+.circle{
+	margin-top:15px;}
+	
+	
+.menu li a{margin-left: 0px;
+    padding: 5px 2px;
+    text-decoration: none;
+    font-size: 11px;}
+	
+.menu li {display:inline;}
+
+.career-img img{width:260px;}
+
+.portfolio-part img{
+width:185px;}
+
+.portfolio-dtl-part{
+width:100%;}
+
+.formwrap{
+width:100%;
+}
+
+.blog-txt-part{margin:20px 0 0 0px;}
+
+}
